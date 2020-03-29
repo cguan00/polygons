@@ -1,0 +1,15 @@
+ident
+sphere
+0 -20 120 75
+torus
+0 -200 0 50 125
+rotate
+x 50
+rotate
+z -40
+move
+250 400 0
+apply
+display
+save
+pic.png
