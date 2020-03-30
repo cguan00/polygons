@@ -63,7 +63,7 @@ def add_box( polygons, x, y, z, width, height, depth ):
     #back
     add_polygon(polygons, x1, y, z1, x1, y1, z1, x, y1, z1)
     add_polygon(polygons, x1, y, z1, x, y1, z1, x, y, z1)
-    
+
     #sides
     add_polygon(polygons, x, y, z1, x1, y, z, x1, y, z1)
     add_polygon(polygons, x, y, z1, x, y, z, x1, y, z)
@@ -89,7 +89,7 @@ def add_sphere(polygons, cx, cy, cz, r, steps ):
 
     steps+= 1
     for lat in range(lat_start, lat_stop):
-        for longt in range(longt_start, longt_stop+1):
+        for longt in range(longt_start, longt_stop):
             index = lat * steps + longt
 
             # add_edge(polygons, points[index][0],
